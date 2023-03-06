@@ -1,0 +1,394 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #242121;
+    font: 400 'Raleway', 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/*Header*/
+
+.container {
+    width: 1920px;
+    height: 1080px;
+}
+
+.header_up {
+    width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 360px;
+    padding: 35px 0;
+}
+
+.header_nav {
+    padding-left: 185px;
+}
+
+.header_nav_item {
+    display: inline-block;
+    margin-right: 45px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    letter-spacing: 0.6px;
+}
+
+.header_nav_item:last-child {
+    margin-right: 0;
+}
+
+.header_nav_item:first-child {
+    text-decoration-line: underline;
+}
+
+.header_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 740px;
+    width: 655px;
+    margin-left: 655px;
+    margin-top: 203px;
+}
+
+.banner_title {
+    color: #0D302C;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 235px;
+    letter-spacing: 0.6px;
+}
+
+.banner_text {
+    padding-right: 35px;
+    color: #000000;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+}
+
+.banner_pic {
+    padding-top: 315px;
+}
+
+/*Container2*/
+
+.container2 {
+    width: 1920px;
+    height: 966px;
+}
+
+.cont2_title {
+    display: flex;
+    flex-direction: row;
+    padding-top: 189px;
+    padding-left: 515px;
+}
+
+.cont2_title_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    color: #01353E;
+}
+
+.cont2_title_pic {
+    padding-top: 20px;
+}
+
+.cont2_main {
+    width: 1080px;
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 361px;
+    margin-top: 96px;
+}
+
+.cont2_text1 {
+    width: 500px;
+    margin-right: 80px;
+}
+
+.cont2_text2 {
+    width: 500px;
+}
+
+.cont2_text1,
+.cont2_text2 {
+    font-family: 'Robooto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+}
+
+.cont2_text_line {
+    height: 87px;
+    margin-top: 30px;
+}
+
+.cont2_text_line:first-child {
+    margin-top: 0;
+}
+
+.cont2_text_line1 {
+    height: 87px;
+    margin-top: 30px;
+}
+
+.cont2_text_line1:first-child {
+    margin-top: 0;
+}
+
+/*Container3*/
+
+.container3 {
+    width: 1920px;
+    height: 953px;
+    background-color: #F8F8F8;
+}
+
+.cont3_title {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    padding-left: 653px;
+}
+
+.cont3_title_pic {
+    padding-top: 20px;
+}
+
+.cont3_title_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    color: #01353E;
+}
+
+.cont3_info_wrap {
+    display: flex;
+    flex-direction: row;
+    padding-left: 426px;
+    margin-top: 101px;
+}
+
+.cont3_info_item1 {
+    margin-right: 222px;
+}
+
+.cont3_info_item2 {
+    margin-right: 230px;
+}
+
+.cont3_info_wrap2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+}
+
+.cont3_data1,
+.cont3_data3 {
+    width: 350px;
+    height: 68px;
+}
+
+.cont3_data1,
+.cont3_data2,
+.cont3_data3 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: o.6px;
+    color: #242121;
+}
+
+.cont3_data1 {
+    margin-left: 360px;
+    margin-right: 74px;
+}
+
+.cont3_data2 {
+    width: 350px;
+    height: 71px;
+    margin-right: 76px;
+}
+
+.cont3_waves {
+    display: flex;
+    flex-direction: row;
+    margin-left: 360px;
+    margin-top: 102px;
+}
+
+.waves_items {
+    width: 346px;
+    height: 158px;
+}
+
+.waves_text {
+    width: 600px;
+    height: 158px;
+    margin-left: 300px;
+}
+
+.waves_text1,
+.waves_text2 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.waves_text2 {
+    margin-top: 30px;
+}
+
+/*Container4*/
+
+.container4 {
+    width: 1920px;
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cont4_info {
+    width: 960px;
+    height: 850px;
+}
+
+.cont4_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont4_title_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    color: #01353E;
+    padding-left: 360px;
+    padding-top: 200px;
+}
+
+.cont4_title_pic {
+    padding-top: 220px;
+}
+
+.cont4_text {
+    width: 507px;
+    height: 350px;
+    margin-left: 360px;
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+}
+
+.cont4_text1 {
+    height: 126px;
+}
+
+.cont4_text2 {
+    height: 72px;
+    margin-top: 30px;
+}
+
+.cont4_text3 {
+    height: 89px;
+    margin-top: 30px;
+}
+
+.cont4_pic {
+    width: 960px;
+    height: 1920px;
+}
+
+/*Container5*/
+
+.container5 {
+    width: 1920px;
+    height: 200px;
+    background-color: #F8F8F8;
+}
+
+.cont5_title {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+    color: #242121;
+    padding-left: 672px;
+    padding-top: 81px;
+}
+
+.cont5_phrase {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+    padding-left: 1121px;
+}
+
+/*Footer*/
+
+.footer_space {
+    height: 200px;
+    width: 1920px;
+    background-color: #00B2A0;
+}
+
+.footer_pic {
+    padding-left: 930px;
+    padding-top: 68px;
+}
